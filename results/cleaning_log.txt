@@ -1,0 +1,9 @@
+Loaded 10,324 rows, 33 columns, 73 distinct vendors
+PO Sent to Vendor Date: 4,592 parsed, 5,732 not a date. Top non-date values: 'N/A - From RDC' x5404; 'Date Not Captured' x328
+Scheduled Delivery Date: 10,324 parsed, 0 not a date. Top non-date values: 
+Delivered to Client Date: 10,324 parsed, 0 not a date. Top non-date values: 
+Lead time: 4,592 rows have both dates; 5 impossible (delivered before PO) set to empty; max 616 days
+Freight: 4,126 text values (40%); 1,442 say included -> treated as $0; 2,684 unknown (left empty)
+'SCMS from RDC': 5,404 rows (52%), excluded from vendor ranking, kept in the overall rate
+Overall on-time delivery, all rows: 88.5%
+Vendors ranked (>= 10 shipments, excluding SCMS from RDC): 29
